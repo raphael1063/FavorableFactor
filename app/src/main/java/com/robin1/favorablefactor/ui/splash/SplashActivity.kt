@@ -1,12 +1,12 @@
-package com.robin1.favorablefactor.ui
+package com.robin1.favorablefactor.ui.splash
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.robin1.favorablefactor.R
 
-class MainActivity : AppCompatActivity() {
+class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_splash)
     }
 }
